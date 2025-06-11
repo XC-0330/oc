@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OC角色图鉴</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="password-protect" class="overlay">
+        <div class="password-box">
+            <p>请输入密码进入网站：</p>
+            <input type="password" id="password-input">
+            <button onclick="checkPassword()">进入</button>
+        </div>
+    </div>
+
+    <header>
+        <h1>OC角色图鉴</h1>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="characters.html">角色</a>
+            <a href="articles.html">文章</a>
+        </nav>
+        <input type="text" id="search-input" placeholder="搜索角色或文章">
+    </header>
+
+    <main>
+        <section id="poetry">
+            <blockquote id="random-poem">正在加载古诗词...</blockquote>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
